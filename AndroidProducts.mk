@@ -17,3 +17,11 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_quill_tab.mk \
     $(LOCAL_DIR)/lineage_quill_tab.mk
+
+COMMON_LUNCH_CHOICES := \
+    full_quill_tab-eng \
+    full_quill_tab-user \
+    full_quill_tab-userdebug \
+    lineage_quill_tab-eng \
+    lineage_quill_tab-user \
+    lineage_quill_tab-userdebug
