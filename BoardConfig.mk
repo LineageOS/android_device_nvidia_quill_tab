@@ -15,3 +15,6 @@
 #
 
 include device/nvidia/quill/BoardConfig.mk
+
+# Fingerprint override
+BUILD_FINGERPRINT := NVIDIA/quill/quill:9/PPR1.180610.011/4199437_1739.5219:user/release-keys
