@@ -18,7 +18,7 @@
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration for quill_tab.
-$(call inherit-product, device/nvidia/quill/lineage.mk)
+include device/nvidia/quill/lineage.mk
 $(call inherit-product, device/nvidia/quill_tab/full_quill_tab.mk)
 
 PRODUCT_NAME := lineage_quill_tab
